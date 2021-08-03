@@ -1,0 +1,13 @@
+version: '2'
+
+services: 
+    hwk-8-compose: 
+        build: 
+            context: .
+        container_name: hwk-8-compose
+        volumes: 
+            - myapp:/home/tigran/Desktop/WEB/EPAM/Node.js/codes/hwks/hwk-8-docker
+        ports: 
+            - "8080:3000"
+volumes: 
+    myapp: 

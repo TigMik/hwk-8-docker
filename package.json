@@ -1,0 +1,20 @@
+{
+  "name": "hwk-8-docker",
+  "version": "1.0.0",
+  "description": "creating image from express application, using also docker-compode for connecting containers",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [
+    "docker",
+    "compose"
+  ],
+  "author": "TM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
